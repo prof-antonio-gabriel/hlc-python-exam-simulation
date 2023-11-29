@@ -8,7 +8,7 @@ Instalar pytest
 pip3 install pytest 
 ```
 
-## Instrucciones 
+## Instrucciones  
 
 ### Indice masa corporal (IMC)
 

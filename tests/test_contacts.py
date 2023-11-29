@@ -6,7 +6,7 @@ import os
 class TestContactManager(unittest.TestCase):
     """Pruebas unitarias para la clase ContactManager."""
 
-    def setUp(self):
+    def setUp(self): 
         """Preparación antes de cada método de prueba."""
         self.filename = "test_contacts.csv"
         self.manager = ContactManager(self.filename)

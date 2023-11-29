@@ -6,7 +6,7 @@ class TestIMC(unittest.TestCase):
     Clase de test para probar la función calcular_imc.
     """
 
-    def test_imc_normal(self):
+    def test_imc_normal(self): 
         """ Prueba un caso con IMC en el rango normal. """
         self.assertAlmostEqual(calcular_imc(70, 1.75), 22.86, places=2)
 

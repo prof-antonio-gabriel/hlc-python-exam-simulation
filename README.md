@@ -1,14 +1,20 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/TiZcQ-cx)
 # hlc-python-exam-simulation
 
 Simulación de prueba python en base a test unitarios
 
 ## Prerequisitos
+Instalar pip3 (si no está instalado)
+```
+sudo apt intall pip3 
+```
+
 Instalar pytest
 ```
 pip3 install pytest 
 ```
 
-## Instrucciones  
+## Instrucciones 
 
 ### Indice masa corporal (IMC)
 
@@ -57,7 +63,7 @@ class Contact:
         """Compara dos contactos por su contenido."""
         
 ```
-Dentro del directorio assignment crea un archivo llamado **ccontact_manager.py** que contenga el código para la siguiente estructura:
+Dentro del directorio assignment crea un archivo llamado **contact_manager.py** que contenga el código para la siguiente estructura:
 ```
 import os
 from assignment.contact import Contact
@@ -103,7 +109,9 @@ class ContactManager:
 Para probar que el código está correcto lanza este comando en el directorio principal del proyecto:
 
 ```
-pytest 
+python3 -m pytest tests/test_imc.py
+
+python3 -m pytest tests/test_contacts.py
 ```
 
 Si todo está correcto deberías ver en la consola lo siguiente:
